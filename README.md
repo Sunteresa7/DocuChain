@@ -52,7 +52,7 @@ Edit
 - MongoDB (optional for storing users)
 
 ### 1. Clone the Repo
-```bash
+
 git clone https://github.com/your-username/docuchain.git
 cd docuchain
 
@@ -65,7 +65,8 @@ npm install
 
 cd ../verifichain-main
 npm install
-3. Configure Environment Variables
+
+### 3. Configure Environment Variables
 Create a .env file in the server/ directory with:
 
 env
@@ -75,7 +76,8 @@ PINATA_API_KEY=your_pinata_key
 PINATA_SECRET_API_KEY=your_pinata_secret
 EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_email_password
-4. Compile and Deploy Smart Contract
+
+### 4. Compile and Deploy Smart Contract
 bash
 Copy
 Edit
@@ -87,10 +89,11 @@ server/contracts/
 
 verifichain-main/src/abi/
 
-5. Start the Application
+### 5. Start the Application
 bash
 Copy
 Edit
+
 # Terminal 1 - Backend
 cd server
 npm run start
@@ -102,15 +105,15 @@ npm start
 Visit: http://localhost:3000
 Ensure MetaMask is connected to Ganache's private network.
 
-🧪 Testing Highlights
+### 🧪 Testing Highlights
 Unit Testing for Smart Contracts (Ganache)
 
 Integration Testing across backend, IPFS, and Ethereum
 
 UAT feedback implemented for UX improvements
 
-📸 Screenshots
+### 📸 Screenshots
 Refer to the FYP Report for architecture diagrams, dashboards, verifier panels, and system output.
 
-📜 License
+### 📜 License
 MIT License
