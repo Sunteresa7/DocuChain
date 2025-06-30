@@ -54,10 +54,11 @@ Edit
 ### 1. Clone the Repo
 
 git clone https://github.com/your-username/docuchain.git
+
 cd docuchain
 
 ### 2. Install Dependencies
-bash
+
 
 cd server
 npm install
@@ -68,18 +69,13 @@ npm install
 ### 3. Configure Environment Variables
 Create a .env file in the server/ directory with:
 
-env
-Copy
-Edit
 PINATA_API_KEY=your_pinata_key
 PINATA_SECRET_API_KEY=your_pinata_secret
 EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_email_password
 
 ### 4. Compile and Deploy Smart Contract
-bash
-Copy
-Edit
+
 truffle compile
 truffle migrate --reset
 Copy the deployed contract JSON (build/contracts/DocumentVerification.json) into:
