@@ -87,11 +87,15 @@ verifichain-main/src/abi/
 ### 5. Start the Application
 
 # Terminal 1 - Backend
+
 cd server
-npm run start
+
+npm run dev
 
 # Terminal 2 - Frontend
+
 cd ../verifichain-main
+
 npm start
 
 ### 6. Open in Browser
