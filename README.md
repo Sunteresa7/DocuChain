@@ -89,9 +89,6 @@ server/contracts/
 verifichain-main/src/abi/
 
 ### 5. Start the Application
-bash
-Copy
-Edit
 
 # Terminal 1 - Backend
 cd server
