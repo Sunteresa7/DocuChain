@@ -97,7 +97,8 @@ npm run start
 # Terminal 2 - Frontend
 cd ../verifichain-main
 npm start
-6. Open in Browser
+
+### 6. Open in Browser
 Visit: http://localhost:3000
 Ensure MetaMask is connected to Ganache's private network.
 
