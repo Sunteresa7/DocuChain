@@ -58,8 +58,7 @@ cd docuchain
 
 ### 2. Install Dependencies
 bash
-Copy
-Edit
+
 cd server
 npm install
 
